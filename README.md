@@ -2,26 +2,6 @@
 Pix Automatic guardrails QA
 This project demonstrates the design and validation of regulatory guardrails for Pix Automático managed subscriptions. The feature required enforcing 48-hour processing locks and 7-day rolling regulatory restrictions while operating under real-time constraints without simulation capabilities.
 
-pix-regulatory-guardrails-qa/
-│
-├── README.md
-│
-├── 01_Test_Strategy/
-│     ├── Test_Plan.md
-│     ├── Risk_Assessment.md
-│
-├── 02_Test_Design/
-│     ├── Acceptance_Criteria.md
-│     ├── Test_Cases.md
-│     ├── Timeline_Model.md
-│
-├── 03_Test_Execution/
-│     ├── Execution_Log_Template.xlsx
-│
-└── 04_Artifacts/
-      ├── Sample_API_Response.json
-      ├── Timeline_Diagram.png
-
 # Business Problem
 The payment provider does not natively support managed subscriptions.
 To comply with banking regulations, the system simulates a weekly auto-renew subscription model while allowing manual seller-triggered charges.
