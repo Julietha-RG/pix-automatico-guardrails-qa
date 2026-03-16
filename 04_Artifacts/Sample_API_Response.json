@@ -1,4 +1,12 @@
 {
-  "error": "Charge Frequency Limit Exceeded",
-  "retry_after": "2026-03-15T14:00:00Z"
+    "subscriptions": [
+        {
+            "action": "subscription.update",
+            "subscription": "QxTihq7cR-W2msJIXTAXAw",
+            "result": "error",
+            "error": {
+                "subscription": "Proration is not supported for this payment method type. Set proration to false or choose a supported method."
+            }
+        }
+    ]
 }
